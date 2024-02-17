@@ -49,4 +49,4 @@ To further investigate this data, I used Pennsylvania as a sample state to explo
 
 ## 6. Significance:
 
-This research aims to contribute valuable insights into the factors influencing an
+This research aims to contribute valuable insights into the factors influencing anti-LGBT legislation, helping policymakers and advocacy groups in understanding the dynamics of these decisions.
