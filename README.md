@@ -34,9 +34,18 @@ The main objectives are to analyze the correlation between church density and th
 4. Are there regional variations in church density that correspond to distinct legislative trends?
 
 ## 5. Results
-1. Exploratory Data Analysis
+### Exploratory Data Analysis
 
 ![Church Density in the United States](Visualizations/US%20Church%20Density.png)
+The figure above shows the density of churches within the United States. We see the majority of the United States has a higher density of churches represented by red while a low density of churches, represented by green, or prominent in urban areas. 
+
+![Church and Voting Visualization in the United States](Visualizations/US-%20Church-%20Voting.png)
+The figure above compares the density of churches with the percentage of Republican voters in each state. We can start to see a correlation between states having a low church density and a low percentage of Republican voters. 
+
+![Pennsylvania Dashboard Visualization](Visualizations/PA%20Dashboard.png)
+To further investigate this data, I used Pennsylvania as a sample state to explore the correlation on a county level within a state before analyzing the county level nationally. This visual shows a very large correlation between the presence of churches within a county and Republican voters. 
+
+
 
 ## 6. Significance:
 
