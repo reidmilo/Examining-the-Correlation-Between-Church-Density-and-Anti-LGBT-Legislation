@@ -6,10 +6,6 @@
 **Background:**
 The United States has been engaged in ongoing debates and legislative efforts surrounding LGBT rights. This study aims to investigate the potential correlation between church density, the introduction of anti-LGBT legislation, and voting patterns. The objective is to provide insights into the role religion plays in voters' morals and how it influences their political decisions.
 
-**Previous Research:**
-- Economic Impact of LGBT Legislation
-- The Economic Cost of Anti-LGBTQ Laws
-- Church Attendance on Congressional Growth
 
 ## 2. Objectives:
 
@@ -23,7 +19,6 @@ The main objectives are to analyze the correlation between church density and th
 **Data Collection:**
 - Voting Patterns Data
 - Anti-LGBT+ Legislation Introduced Data
-- Hate Crimes Data
 - GIS Data on Places of Worship in the US
 
 **Analysis:**
