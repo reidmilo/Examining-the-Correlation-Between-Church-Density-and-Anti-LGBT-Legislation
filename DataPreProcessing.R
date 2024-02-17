@@ -47,16 +47,13 @@ df4 <- merge(x=df4,y=df3,by = 'ZIP',all.x=TRUE)
 
 df4 <- mutate (df4, churchPopRatio = population/n)
 
-write.csv(df4, "/Users/oliverreidmiller/Desktop/Data 400/Idea 2/ChurchPopRatio.csv", row.names=FALSE)
-
-
-mutate(churchPopRat = count(ZIP)/population)
+#write.csv(df4, "/Users/oliverreidmiller/Desktop/Data 400/Idea 2/ChurchPopRatio.csv", row.names=FALSE)
 
 
 df5<-df4[!(df4$population==0),]
 
 
-write.csv(df4, "/Users/oliverreidmiller/Desktop/Data 400/Idea 2/ChurchPopRatioNOZERO.csv", row.names=FALSE)
+#write.csv(df4, "/Users/oliverreidmiller/Desktop/Data 400/Idea 2/ChurchPopRatioNOZERO.csv", row.names=FALSE)
 
 
 # State Level -------------------------------------------------------------
@@ -80,3 +77,44 @@ df_S_Merged <- merge(x=df_Church_S_2,y=df_Pop_S_1,
 df_S_Merged <- mutate (df_S_Merged, Ratio = X2023/StateTotal)
 write.csv(df_S_Merged, "/Users/oliverreidmiller/Desktop/Data 400/Idea 2/StateLevelData.csv", row.names=FALSE)
 
+
+
+#PA Data Analysis
+
+PAdf <- filter (df4, STATE=='PA')
+View(PAdf)
+
+for (i in 1:nrow(PAdf)) {#Fill in known county names from same zip code
+  if (PAdf[i, 10] == 'NOT AVAILABLE') {
+    
+    NAzip <- PAdf[i, 1]
+    rowAboveZip <- PAdf[i-1, 1]
+    rowBelowZip <- PAdf[i+1, 1]
+    
+    if ((NAzip ==rowAboveZip)&(PAdf[i-1, 10]!='NOT AVAILABLE')){
+      PAdf[i, 10] <- PAdf[i-1, 10]
+    }
+    if ((NAzip ==rowBelowZip)&(PAdf[i+1, 10]!='NOT AVAILABLE')){
+      PAdf[i, 10] <- PAdf[i+1, 10]
+    }
+    
+    }
+  }
+PAdf2<-PAdf
+PAdf2 <- filter(PAdf2, SUBREGION!='NOT AVAILABLE')
+
+
+PAdf3 <- PAdf2 %>% group_by(SUBREGION) %>% summarise(AVG_RATIO = mean(churchPopRatio))
+
+PA_ElectionDf <- read.csv('/Users/oliverreidmiller/Desktop/Data 400/Idea 2/2020_Election_PA.csv')
+PA_ElectionDf$County <- toupper(PA_ElectionDf$County)
+
+PAdfMerged <- merge(x=PAdf3,y=PA_ElectionDf, 
+            by.x=c("SUBREGION"), 
+            by.y=c("County"))
+
+
+linReg <- lm(Perc_Rep~AVG_RATIO, data = PAdfMerged)
+write.csv(PAdfMerged, "/Users/oliverreidmiller/Desktop/Data 400/Idea 2/PADfMerged.csv", row.names=FALSE)
+
+summary(linReg)
