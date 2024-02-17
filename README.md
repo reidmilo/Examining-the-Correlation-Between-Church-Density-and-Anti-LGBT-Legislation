@@ -33,6 +33,10 @@ The main objectives are to analyze the correlation between church density and th
 3. What sociopolitical factors contribute to the observed correlation?
 4. Are there regional variations in church density that correspond to distinct legislative trends?
 
+## 5. Results
+1. Exploratory Data Analysis
+![Alt Text](Visualizations/US Church Density.png)
+
 ## 6. Significance:
 
 This research aims to contribute valuable insights into the factors influencing an
