@@ -35,7 +35,8 @@ The main objectives are to analyze the correlation between church density and th
 
 ## 5. Results
 1. Exploratory Data Analysis
-![Alt Text](Visualizations/US Church Density.png)
+
+![Church Density in the United States](Visualizations/US%20Church%20Density.png)
 
 ## 6. Significance:
 
