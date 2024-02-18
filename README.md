@@ -46,8 +46,15 @@ The figure above compares the density of churches with the percentage of Republi
 To further investigate this data, I used Pennsylvania as a sample state to explore the correlation on a county level within a state before analyzing the county level nationally. This visual shows a very large correlation between the presence of churches within a county and Republican voters. 
 
 ![Pennsylvania Registration Visualization](Visualizations/PA%20Reg.png)
-To confirm a statistically significant relationship, I ran a linear regression with the Percentage of Republican Voters as the independent variable and the density of churches as the independent variable.
+To confirm a statistically significant relationship, I ran an OLS linear regression with the Percentage of Republican Voters as the independent variable and the density of churches as the independent variable.
 The low p-value indicates high significance between the variables.
+
+- The coefficient -0.000124 represents the estimated change in the percentage of Republican votes for a one-unit increase in the ratio of population to churches.
+- The negative sign of the coefficient suggests an inverse relationship between the ratio of population to churches and the percentage of Republican votes. This means that, on average, as the population-to-churches ratio increases, the percentage of Republican votes is expected to decrease.
+  
+- The ratio of population to churches is the independent variable in this model. If this ratio is higher, it implies a larger population relative to the number of churches in the county.
+
+It's important to note that correlation does not imply causation, so while there may be an association between these variables, the model does not establish a causal relationship.
 
 
 ## 6. Significance:
