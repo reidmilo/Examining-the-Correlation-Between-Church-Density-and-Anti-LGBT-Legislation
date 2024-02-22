@@ -16,10 +16,17 @@ The main objectives are to analyze the correlation between church density and th
 
 ## 3. Data Analysis:
 
+**I used two methods for data analysis:**
+1. I utilized the Places of Worship GIS dataset, which provides location data for each church or place of worship in the United States using IRS tax forms. The number of churches is summed up at the county or state level and then merged with census population data from 2020. I divided the population by the number of churches to create a person-to-church ratio, assessing church density and religious presence in a community.
+
+2. The second method involved using data from the US Religious Census of 2020. This census, conducted by the Association of Statisticians of American Religious Bodies every 10 years, gathers information about churches and religious practices within the United States. While this data does not provide GIS information about the location of churches, it breaks down data by each county in the United States. The key variable from the dataset was Adherents as a percentage of the total population, which was summed up to determine the percentage of each county's population belonging to a church.
+
 **Data Collection:**
-- Voting Patterns Data
-- Anti-LGBT+ Legislation Introduced Data
-- GIS Data on Places of Worship in the US
+- Voting Patterns Data on the 2020 Presidential election from the [MIT Election Data + Science Lab](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ)
+- Anti-LGBT+ Legislation Introduced Data from the ACLU [Mapping Attacks on LGBTQ Rights in U.S. State Legislatures in 2023](https://www.aclu.org/legislative-attacks-on-lgbtq-rights-2023?state=)
+- GIS Data on [All Places of Worship](https://hifld-geoplatform.opendata.arcgis.com/404)
+- 2020 [US Religious Census](https://www.usreligioncensus.org/)
+
 
 **Analysis:**
 - Conduct correlation analyses between church density and anti-LGBT legislation.
@@ -35,6 +42,8 @@ The main objectives are to analyze the correlation between church density and th
 
 ## 5. Results
 ### Exploratory Data Analysis
+
+#### All Places of Worship GIS Data
 
 ![Church Density in the United States](Visualizations/US%20Church%20Density.png)
 The figure above shows the density of churches within the United States. We see the majority of the United States has a higher density of churches represented by red while a low density of churches, represented by green, or prominent in urban areas. 
@@ -56,6 +65,7 @@ The low p-value indicates high significance between the variables.
 
 It's important to note that correlation does not imply causation, so while there may be an association between these variables, the model does not establish a causal relationship.
 
+#### US Religous Census
 
 ## 6. Significance:
 
