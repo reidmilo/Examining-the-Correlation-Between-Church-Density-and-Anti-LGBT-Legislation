@@ -80,7 +80,8 @@ The figure above currently juxtaposes the percentage of churchgoers in a populat
 To establish statistical significance, a bivariate Ordinary Least Squares (OLS) regression was conducted, with the number of anti-LGBT bills introduced as the independent variable and the percentage of the population attending church as the dependent variable. The regression output and plot are presented below.
 
 ![OLS Summary](/Visualizations/Regression-Summary.png)
-![LM Plot](/Visualizations/OLS%20Plot.png)
+![OLS Plot](/Visualizations/OLS%20Plot.png)
+
 The variable shows a significant value with a p-value < 0.001%, providing confirmation that the variables are not random.
 
 
