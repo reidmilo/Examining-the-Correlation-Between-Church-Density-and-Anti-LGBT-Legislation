@@ -90,15 +90,15 @@ The variable shows a significant value with a p-value < 0.001%, providing confir
 
 ## 6. Significance:
 
-**Religious Institutions:** A negative correlation between certain religious beliefs and support for anti-LGBT legislation may lead to increased scrutiny and potential reputational damage.
+- **Religious Institutions:** A negative correlation between certain religious beliefs and support for anti-LGBT legislation may lead to increased scrutiny and potential reputational damage.
 
-**Political Leaders and Policymakers:** Understanding the religious influence on voting patterns can help policymakers make more informed decisions regarding anti-LGBT legislation. They may need to balance one’s beliefs with the principles of equality and human rights.
+- **Political Leaders and Policymakers:** Understanding the religious influence on voting patterns can help policymakers make more informed decisions regarding anti-LGBT legislation. They may need to balance one’s beliefs with the principles of equality and human rights.
 
-**LGBTQ+ Advocacy Groups:** Findings could guide advocacy groups in strategizing and targeting their efforts. If there is a strong religious correlation with anti-LGBT sentiment, these groups may need to focus on outreach and education within religious communities.
+- **LGBTQ+ Advocacy Groups:** Findings could guide advocacy groups in strategizing and targeting their efforts. If there is a strong religious correlation with anti-LGBT sentiment, these groups may need to focus on outreach and education within religious communities.
 
-**Community Members/Voters:** Raise public consciousness about the connection between religion, voting choices, and social issues. It could also encourage open dialogues within the community about diversity and acceptance.
+- **Community Members/Voters:** Raise public consciousness about the connection between religion, voting choices, and social issues. It could also encourage open dialogues within the community about diversity and acceptance.
 
-**Media and Public Perception:** The media's interpretation and reporting of the study can influence public perception. It is crucial for the media to present the findings accurately and avoid perpetuating stereotypes or stigmatizing any group.
+- **Media and Public Perception:** The media's interpretation and reporting of the study can influence public perception. It is crucial for the media to present the findings accurately and avoid perpetuating stereotypes or stigmatizing any group.
 
-**Legal and Human Rights Organizations:** If the study reveals a connection between religious beliefs and discriminatory legislation, it may prompt legal and human rights organizations to challenge such laws on constitutional or human rights grounds.
+- **Legal and Human Rights Organizations:** If the study reveals a connection between religious beliefs and discriminatory legislation, it may prompt legal and human rights organizations to challenge such laws on constitutional or human rights grounds.
 
