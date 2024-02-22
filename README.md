@@ -90,8 +90,6 @@ The variable shows a significant value with a p-value < 0.001%, providing confir
 
 ## 6. Significance:
 
-Certainly! Here is the provided text formatted in Jekyll-compatible Markdown:
-
 **Religious Institutions:** A negative correlation between certain religious beliefs and support for anti-LGBT legislation may lead to increased scrutiny and potential reputational damage.
 
 **Political Leaders and Policymakers:** Understanding the religious influence on voting patterns can help policymakers make more informed decisions regarding anti-LGBT legislation. They may need to balance one’s beliefs with the principles of equality and human rights.
