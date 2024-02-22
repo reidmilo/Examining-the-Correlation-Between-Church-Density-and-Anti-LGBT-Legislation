@@ -70,7 +70,7 @@ It's important to note that correlation does not imply causation, so while there
 The figure above illustrates the percentage of people attending church in each county compared to the percentage of Republican voters in the 2020 election for that county.
 
 
-![US - State](/Visualizations/US%20Church%20Votes.png)
+![US - State](/Visualizations/US-%20Chruch-V0tes.png)
 The figure above consolidates the same data at the state level rather than the county level to present a statewide perspective.
 
 ![US - State](/Visualizations/States%20-%20church%20-%20bills.png)
