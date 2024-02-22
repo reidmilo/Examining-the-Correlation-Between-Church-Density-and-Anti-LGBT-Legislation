@@ -66,20 +66,21 @@ It's important to note that correlation does not imply causation, so while there
 
 #### US Religous Census
 
-![US - County](/Visualizations/US-Church-Votes.png)
+![US - County](/Visualizations/US%20Church%20Votes.png)
 The figure above illustrates the percentage of people attending church in each county compared to the percentage of Republican voters in the 2020 election for that county.
 
 
-![US - State](/Visualizations/US-Church-Votes.png)
+![US - State](/Visualizations/US%20Church%20Votes.png)
 The figure above consolidates the same data at the state level rather than the county level to present a statewide perspective.
 
-![US - State](/Visualizations/States-church-bills.png)
+![US - State](/Visualizations/States%20church%20bills.png)
 The figure above currently juxtaposes the percentage of churchgoers in a population with the number of anti-LGBT bills introduced by each state in 2023. This reveals a distinct correlation between religious influence and the introduction of anti-LGBT bills.
 
 
 To establish statistical significance, a bivariate Ordinary Least Squares (OLS) regression was conducted, with the number of anti-LGBT bills introduced as the independent variable and the percentage of the population attending church as the dependent variable. The regression output and plot are presented below.
 
 ![OLS Summary](/Visualizations/Regression%20Summary.png)
+![OLS Plot](/Visualizations/OLS%20Plot.png)
 
 
 
