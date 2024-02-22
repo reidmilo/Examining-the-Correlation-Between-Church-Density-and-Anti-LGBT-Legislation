@@ -73,7 +73,7 @@ The figure above illustrates the percentage of people attending church in each c
 ![US - State](/Visualizations/US%20Church%20Votes.png)
 The figure above consolidates the same data at the state level rather than the county level to present a statewide perspective.
 
-![US - State](/Visualizations/States%20church%20bills.png)
+![US - State](/Visualizations/States%20-%20church%20-%20bills.png)
 The figure above currently juxtaposes the percentage of churchgoers in a population with the number of anti-LGBT bills introduced by each state in 2023. This reveals a distinct correlation between religious influence and the introduction of anti-LGBT bills.
 
 
